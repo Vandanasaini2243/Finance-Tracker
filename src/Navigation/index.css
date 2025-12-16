@@ -1,0 +1,46 @@
+/* Main container inside Navbar */
+.OuterContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand styling */
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+
+/* Nav links container */
+.navLinks {
+  display: flex;
+  gap: 20px;
+}
+
+/* Individual links */
+.navLinks .nav-link {
+  color: #eaeaea !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.navLinks .nav-link:hover {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+/* Active link (optional) */
+.navLinks .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* Navbar height */
+.navbar {
+  min-height: 60px;
+  padding: 0 10px;
+}
